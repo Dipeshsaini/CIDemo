@@ -1,0 +1,6 @@
+framework module Pods_CardViewDemoUITests {
+  umbrella header "Pods-CardViewDemoUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}
