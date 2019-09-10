@@ -41,8 +41,6 @@ class FlipAnimation: UIViewController {
                 self.firstView.backgroundColor = .brown
                 self.valueflip = true
             }
-            
-            
         })
         
         

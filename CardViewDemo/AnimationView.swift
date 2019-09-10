@@ -7,7 +7,6 @@
 //
 
 import UIKit
-import PassKit
 
 class AnimationView: UIViewController {
 
