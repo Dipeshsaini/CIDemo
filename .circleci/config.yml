@@ -1,8 +1,19 @@
- steps:
+ jobs:
+  build-and-test:
+    macos:
+      xcode: "9.3.0"
+      steps:
+      - run:
+          name: Run tests
+          command: fastlane scan
+          environment:
+            SCAN_DEVICE: iPhone XR
+            SCAN_SCHEME: WebTests
       - run:
           name: Install Homebrew Dependencies
           command: brew install yarn
       - run:
           name: Install Node Dependencies
           command: yarn install
+      - run: fastlane scan
 
